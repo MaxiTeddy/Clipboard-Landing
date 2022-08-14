@@ -1,0 +1,221 @@
+body{
+    background-color: black;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+.page{
+    width: 250px;
+    background-color: white;
+    margin: -10px auto;
+    padding: 0 20px;
+}
+
+.zero{
+    background: url(/images/bg-header-desktop.png) no-repeat;
+    width: 100%;
+    height: 200px;
+    margin: 0 20px;
+    z-index: 30;
+}
+
+.logo{
+    width: 30%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.one{
+    margin-top: -100px;
+    margin-bottom: 150px;
+}
+
+h2{
+    padding-top: 20px;
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    font-size: 13px;
+    line-height: 20px;
+    color: hsl(201, 11%, 66%);
+}
+
+.button{
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+#first{
+    background-color: hsl(171, 66%, 44%);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#second{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.devices, .computer{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.two{
+    margin-bottom: 150px;
+}
+
+.image{
+    padding: 20px 0;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.list{
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+#last{
+    margin-bottom: 100px;
+}
+
+#vector{
+    margin-bottom: 100px;
+}
+
+.footer-img{
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.six a{
+    text-decoration: none;
+    display: block;
+    color: hsl(210, 10%, 33%);
+    margin-top: 20px;
+}
+
+.six{
+    margin: 80px -20px 0 -20px;
+    background-color: hsl(201, 11%, 66%)
+}
+
+.seven a{
+    display: inline;
+}
+
+i{
+    padding: 30px 10px 50px 10px ;
+}
+
+a:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+@media only screen and (min-width: 900px){
+    .page{
+        width: auto;
+    }
+
+    .zero{
+        background: url(/images/bg-header-desktop.png);
+    }
+
+    .logo{
+        width: 10%;
+    }
+
+    .one p, #two, .five p{
+        margin: 0 30%;
+    }
+
+    .button{
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .computer{
+        float: left;
+        width: 50%;
+    }
+
+    .special{
+        margin: 60px 0 0 60%;
+        width: 280px;
+        text-align: left;
+    }
+
+    .devices{
+        width: 50%;
+    }
+
+    .spec{
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+    }
+
+    .special-1{
+        width: 250px;
+    }
+
+    .special-1 img{
+        margin-bottom: -10px;  
+    }
+
+    .list{
+        display: inline; 
+    }
+
+    .image{
+        width: 10%;
+        display: inline;
+        padding: 0 40px;
+    }
+
+    #vector{
+        margin-bottom: auto;
+    }
+
+    .five{
+        margin-top: 150px;
+    }
+
+    .footer-img{
+        width: 40px;
+        padding-right: 50px;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .six{
+        display: flex;
+    }
+
+    .sixth{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        text-align: left;
+        width: 60%;
+    }
+
+    .seven{
+        margin-left: 20%;
+    }
+}
