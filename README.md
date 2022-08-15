@@ -68,7 +68,7 @@ Here is an example, see below:
 
 - GitHub - [@Ogiji Max](https://github.com/MaxiTeddy)
 - Frontend Mentor - [@Ogiji Max](https://www.frontendmentor.io/profile/MaxiTeddy)
-- Twitter - [@Ogiji Max](https://www.twitter.com/OgijiMax)
+- Twitter - [@Ogiji Max](https://www.twitter.com/MaxOgiji)
 
 ## Acknowledgments
 
