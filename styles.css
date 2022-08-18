@@ -31,7 +31,7 @@ body{
     margin-bottom: 150px;
 }
 
-h2{
+h2, h1{
     padding-top: 20px;
     color: hsl(210, 10%, 33%);
 }
@@ -42,8 +42,14 @@ p{
     color: hsl(201, 11%, 66%);
 }
 
-.button{
-    display: block;
+.button-1, .button-2:hover{
+    cursor: pointer;
+}
+
+.button-1{
+    background-color: hsl(171, 66%, 44%);
+    margin-top: 40px;
+    margin-bottom: 20px;
     width: 250px;
     height: 50px;
     border-radius: 30px;
@@ -53,18 +59,15 @@ p{
     font-weight: 600;
 }
 
-.button:hover{
-    cursor: pointer;
-}
-
-#first{
-    background-color: hsl(171, 66%, 44%);
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-#second{
+.button-2{
     background-color: hsl(233, 100%, 69%);
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
 }
 
 .devices, .computer{
@@ -111,7 +114,7 @@ p{
 
 .six{
     margin: 80px -20px 0 -20px;
-    background-color: hsl(201, 11%, 66%)
+    background-color:  whitesmoke;
 }
 
 .seven a{
@@ -140,13 +143,34 @@ a:hover{
         width: 10%;
     }
 
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
     .one p, #two, .five p{
         margin: 0 30%;
     }
 
-    .button{
+    .p{
+        margin: 0 7%;
+    }
+
+    .para{
+        margin: 0 27%;
+    }
+
+    .button-1, .button-2{
         display: inline;
-        margin: 0 10px;
+        margin: 20px 10px 0 10px;
+        font-size: 14px;
     }
 
     .computer{
@@ -155,13 +179,14 @@ a:hover{
     }
 
     .special{
-        margin: 60px 0 0 60%;
-        width: 280px;
+        margin: 40px 0 0 60%;
+        width: 330px;
         text-align: left;
+
     }
 
     .devices{
-        width: 50%;
+        width: 60%;
     }
 
     .spec{
@@ -205,17 +230,21 @@ a:hover{
 
     .six{
         display: flex;
+        font-size: 12px;
     }
 
     .sixth{
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto;
+        grid-template-columns: 90px 70px 70px 80px;
+        grid-template-rows: 40px 40px;
         text-align: left;
         width: 60%;
+        column-gap: 30px;
+        margin-left: 150px;
     }
 
     .seven{
-        margin-left: 20%;
+        margin-left: 10%;
+        margin-top: 10px;
     }
 }
