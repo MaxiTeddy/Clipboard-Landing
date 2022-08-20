@@ -32,7 +32,7 @@ Here is what the mobile page looks like I didn't want to add the desktop version
 
 ### Links
 
-- Solution URL: [Here is the solution](https://github.com/MaxiTeddy/Clipboard-Landing)
+- Solution URL: [Here is the solution](https://www.frontendmentor.io/solutions/responsive-page-depending-on-the-device-size-55VAmtX92P)
 - Live Site URL: [Here is what the page looks like](https://clipboard-landing-card.vercel.app/)
 
 ## My process
